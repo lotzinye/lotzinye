@@ -8,6 +8,8 @@
 ![](https://github-readme-stats.vercel.app/api?username=lotzinye&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=lotzinye&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=lotzinye&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+# ❓ LeetCode Stats
+![LeetCode Stats](https://leetcode.card.workers.dev/lotzinye?theme=dark&font=baloo&extension=null)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=lotzinye&icon=0&color=0)](https://visitcount.itsvg.in)
