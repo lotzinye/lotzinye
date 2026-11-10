@@ -1,5 +1,6 @@
 Nathaniel Lo Tzin Ye
- B.Eng. Computer Engineering, Nanyang Technological University (NTU), Singapore
+
+B.Eng. Computer Engineering, Nanyang Technological University (NTU), Singapore
 
 I build end-to-end data and ML systems: from raw data ingestion and big-data pipelines to deep learning models that are evaluated, documented and reproducible. My final-year project on 3D dental AI is published in the NTU Digital Repository.
 
