@@ -35,7 +35,9 @@ MCP server that gives LLMs cited facts from official Singapore credit card T&Cs.
 - **Measured:** 20-question golden set; hybrid **MRR@10 0.900** vs BM25 0.775, with a CI gate that fails if recall@5 drops below 0.80
 - **No LLM on the server:** the client model reasons, while the server only retrieves and computes, so hosting costs about $0 and the numbers come from tested code (73 tests)
 - **One-file store:** structured data, keyword index and vector index in a single SQLite file, with no vector DB to run
+
 `Python` `Agentic RAG` `Azure Cloud Deployment` `MCP` `Hybrid (Dense & Exact Matching)` `SQLite`
+
 ---
 
 ### 🚇 [Singapore MRT Ridership Big-Data Pipeline](https://github.com/lotzinye/LTA-MRT-Rideship-Big-Data-Pipeline)
