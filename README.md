@@ -23,8 +23,19 @@ End-to-end deep learning pipeline that takes a raw intraoral jaw scan (`.obj`) a
 - Designed a **coordinate-space bridge** that lets two networks trained under different normalisations work as one system
 - Solved variable-count cusp detection with a dedicated output head + DBSCAN clustering
 
-`PyTorch` `3D point clouds` `Medical imaging` `DBSCAN`
+`PyTorch` `3D point cloud` `Transformers` `DBSCAN` `Medical imaging`
 
+---
+### 💳 [Singapore Credit Card Agentic RAG via MCP Server](https://github.com/lotzinye/Singapore-Credit-Card-Agentic-RAG-via-MCP-Server)
+*Personal project · Agentic AI, RAG, MCP*
+
+MCP server that gives LLMs cited facts from official Singapore credit card T&Cs. Ask Claude *"I spend $800 on dining and $500 online a month. Which card?"* and it calls tools for hybrid search over the fine print, structured card facts and deterministic cashback maths. Every answer cites its source URL and retrieval date.
+
+- **Hybrid retrieval:** BM25 (SQLite FTS5) + dense vectors (sqlite-vec, bge-small) fused with RRF over **2,083 chunks from 112 official documents** across 11 issuers
+- **Measured:** 20-question golden set; hybrid **MRR@10 0.900** vs BM25 0.775, with a CI gate that fails if recall@5 drops below 0.80
+- **No LLM on the server:** the client model reasons, while the server only retrieves and computes, so hosting costs about $0 and the numbers come from tested code (73 tests)
+- **One-file store:** structured data, keyword index and vector index in a single SQLite file, with no vector DB to run
+`Python` `Agentic RAG` `Azure Cloud Deployment` `MCP` `Hybrid (Dense & Exact Matching)` `SQLite`
 ---
 
 ### 🚇 [Singapore MRT Ridership Big-Data Pipeline](https://github.com/lotzinye/LTA-MRT-Rideship-Big-Data-Pipeline)
@@ -67,7 +78,6 @@ Exploratory analysis of OCBC (O39.SI) market data via `yfinance`: interactive ca
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Verilog](https://shields.io)
 
 **Machine Learning & Deep Learning**
 
